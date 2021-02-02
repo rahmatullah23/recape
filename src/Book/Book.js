@@ -7,6 +7,7 @@ import {
 } from '@material-ui/pickers';
 import { Button } from '@material-ui/core';
 import { userContext } from '../App';
+import Bookings from '../Bookings/Bookings';
 
 const Book = () => {
   const [loggedInUser, setLoggedInUser] = useContext(userContext)
@@ -77,7 +78,7 @@ const Book = () => {
           Book Now
 </Button>
       </MuiPickersUtilsProvider>
-
+<Bookings/>
     </div>
   );
 };

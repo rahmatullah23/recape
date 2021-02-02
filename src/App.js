@@ -20,7 +20,7 @@ console.log(loggedInUser)
   return (
     <userContext.Provider  value={[loggedInUser, setLoggedInUser]}>
       <Router>
-      <h3>This is Main App {loggedInUser.email}</h3>
+      <h3>This is Main recap App {loggedInUser.email}</h3>
       
       <Switch>
           <Route path="/home">
